@@ -7,6 +7,8 @@ author:     "Ma HaoJie"
 header-img: "img/hacker.jpg"
 tags:
     - concurrent
+    - asynchronous
+    - coroutine
 ---
 
 从最近的语言发展可以看出，支持异步和高并发是语言发展的趋势，如新兴的 Go、Rust、Elixir 等编程语言都将其支持异步和高并发作为主要“卖点”，技术变化趋势如此。今天我就在这里详细讨论下异步回调和协程的基本概念以及实现原理，本文将分成不同的章节，深入操作系统甚至是硬件层面来详细讨论这个话题。
